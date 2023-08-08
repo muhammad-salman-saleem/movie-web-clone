@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // const MONGODB_URL = process.env.MONGODB_URL;
-const MONGODB_URL = "mongodb+srv://msalman1221998:bsf1805004@cluster0.dvmf9te.mongodb.net/Movies_Website";
+const MONGODB_URL = "mongodb://localhost:27017/Movies_Website?authSource=Movies_Website";
 
 if (!MONGODB_URL) {
     throw new Error(
